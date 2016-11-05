@@ -60,8 +60,6 @@ public class CodeBuilder extends HttpServlet {
 				BuildRequest buildRequest = objectMapper.readValue(json, BuildRequest.class);
 				System.out.println(buildRequest);
 
-				System.out.println("========================>MY COMMENT");
-
 				String repo = buildRequest.getRepo();
 				String beanstalk = buildRequest.getBeanstalk();
 				String prefix = buildRequest.getPrefix();
