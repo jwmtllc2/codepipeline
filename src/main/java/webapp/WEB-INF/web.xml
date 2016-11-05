@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <display-name>CodeBuilder</display-name>
+    <servlet-name>CodeBuilder</servlet-name>
+    <servlet-class>com.mtllc.codebuilder.CodeBuilder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CodeBuilder</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>
